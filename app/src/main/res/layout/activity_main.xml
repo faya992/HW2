@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/helloWorldButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:onClick="startHelloWorldActivity"
+                android:text="@string/hello_world"
+                app:backgroundTint="#E57373" />
+
+            <Button
+                android:id="@+id/happyBirthdayButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHappyBirthdayActivity"
+                android:text="@string/happy_birthday"
+                app:backgroundTint="#F06292" />
+
+
+            <Button
+                android:id="@+id/helloToastButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:onClick="startHelloToastActivity"
+                android:text="@string/hello_toast"
+                app:backgroundTint="#BA68C8" />
+
+            <Button
+                android:id="@+id/helloToastChallengeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHelloToastChallengeActivity"
+                android:text="@string/hello_toast_challenge"
+                app:backgroundTint="#9575CD" />
+
+            <Button
+                android:id="@+id/helloConstraintButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHelloConstraintActivity"
+                android:text="@string/hello_constraint"
+                app:backgroundTint="#7986CB" />
+
+            <Button
+                android:id="@+id/scrollingTextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startScrollingTextActivity"
+                android:text="@string/scrolling_text"
+                app:backgroundTint="#64B5F6" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
