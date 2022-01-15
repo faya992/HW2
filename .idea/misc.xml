@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_counter_homework.xml" value="0.1859375" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_happy_birthday.xml" value="0.15272726941699832" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_hello_constraint.xml" value="0.18545454143492654" />
+        <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_hello_count.xml" value="0.1375" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_hello_toast.xml" value="0.1" />
+        <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_hello_toast2.xml" value="0.12447916666666667" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_hello_toast_challenge.xml" value="0.16363636008964105" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_hello_world.xml" value="0.2727272668160684" />
+        <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_implicit_intents.xml" value="0.1859375" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_main.xml" value="0.22909090412549746" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/layout/activity_scrolling_text.xml" value="0.2727272668160684" />
         <entry key="..\:/Users/faya/AndroidStudioProjects/HW2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15364583333333334" />

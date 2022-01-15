@@ -81,6 +81,36 @@
                 android:text="@string/scrolling_text"
                 app:backgroundTint="#64B5F6" />
 
+            <Button
+                android:id="@+id/helloToastV2Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startHelloToastV2Activity"
+                android:text="@string/hello_toast_v2"
+                app:backgroundTint="#4FC3F7" />
+
+            <Button
+                android:id="@+id/counterHomeworkButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startCounterHomeworkActivity"
+                android:text="@string/counter_homework"
+                app:backgroundTint="#FFB74D" />
+
+            <Button
+                android:id="@+id/implicitIntentsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:onClick="startImplicitIntentsActivity"
+                android:text="@string/implicit_intents"
+                app:backgroundTint="#DCE775" />
+
         </LinearLayout>
     </ScrollView>
 

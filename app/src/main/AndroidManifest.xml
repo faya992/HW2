@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HW2">
         <activity
+            android:name=".lesson2.ImplicitIntentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson2.CounterHomeworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson2.HelloToastActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".lesson2.HelloCountActivity"
+            android:exported="false" />
+        <activity
             android:name=".lesson1.ScrollingTextActivity"
             android:exported="false" />
         <activity

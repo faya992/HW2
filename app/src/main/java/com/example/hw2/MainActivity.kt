@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.example.hw2.lesson1.*
+import com.example.hw2.lesson2.CounterHomeworkActivity
+import com.example.hw2.lesson2.HelloToastActivity2
+import com.example.hw2.lesson2.ImplicitIntentsActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,5 +39,17 @@ class MainActivity : AppCompatActivity() {
 
     fun startScrollingTextActivity(view: View?) {
         startActivity(Intent(this, ScrollingTextActivity::class.java))
+    }
+
+    fun startHelloToastV2Activity(view: View?) {
+        startActivity(Intent(this, HelloToastActivity2::class.java))
+    }
+
+    fun startCounterHomeworkActivity(view: View?) {
+        startActivity(Intent(this, CounterHomeworkActivity::class.java))
+    }
+
+    fun startImplicitIntentsActivity(view: View?) {
+        startActivity(Intent(this, ImplicitIntentsActivity::class.java))
     }
 }
